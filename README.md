@@ -1,5 +1,7 @@
 # Agon light - Test program
 
+![Screenshot](doc/screenshot.png)
+
 ## Introduction
 
 This is a test program that demonstrates coding the Agon Light in C.
@@ -43,8 +45,6 @@ run
 *Note: If you are in BBC Basic, you must of course exit first by type in ```*bye```*
 
 **HAVE FUN!**
-
-![Screenshot](doc/screenshot.png)
 
 ## References
 
