@@ -22,7 +22,7 @@ Let's assume you download all to your home folder:
 2. Dowload AgDev from [here](https://github.com/pcawte/AgDev?tab=readme-ov-file) and copy it also to the home folder. Rename it to **AgDev**.
 3. Use your terminal and type ```cp -R -f ~/AgDev/ ~CEDev```
 
-Last but not least, add it to your PATH environment variable: ```export PATH=~/AgDev/bin:$PATH``
+Last but not least, add it to your PATH environment variable: ```export PATH=~/AgDev/bin:$PATH```
 
 ## Build test
 
@@ -42,7 +42,9 @@ run
 
 *Note: If you are in BBC Basic, you must of course exit first by type in ```*bye```*
 
-HAVE FUN!
+**HAVE FUN!**
+
+![Screenshot](doc/screenshot.png)
 
 ## References
 
