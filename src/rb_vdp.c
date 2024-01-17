@@ -1,4 +1,4 @@
-#include "vdp.h"
+#include "rb_vdp.h"
 
 // Internal functions
 

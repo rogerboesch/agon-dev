@@ -1,0 +1,1 @@
+cp bin/test.bin ~/agon-emulator/sdcard/test.bin

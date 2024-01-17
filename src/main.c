@@ -1,6 +1,7 @@
 
 #include <stdio.h>
-#include "vdp.h"
+#include "rb_vdp.h"
+#include "rb_vtext.h"
 
 int main(void) {
     // Function from toolchain
@@ -47,6 +48,10 @@ int main(void) {
 		    vdp_plot_lineto(20+c*10, sv->scrHeight-20);
         }
 
+        // Vector text
+        vdp_set_plot_color(BRIGHT_WHITE);
+        vtext_draw_string(100, sv->scrHeight/2, "AGON LIGHT TEST", 3);
+
 		printf("Press any key to continue...\n");
 		getchar();
 	}		
@@ -55,4 +60,11 @@ int main(void) {
     vdp_clear_graphics();
 
 	return 0;
+}
+
+// Callback for vtext
+
+void platform_draw_line(int x1, int y1, int x2, int y2) {
+    vdp_plot_moveto(x1, y1);
+    vdp_plot_lineto(x2, y2);     
 }
